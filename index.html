@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charser="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevChris Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Chris Beyers</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Junior front-end dev</p>
+            <img src="chris-snow.jpg" alt="" class="intro__img">
+        </section>
+
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>HTML</h3>
+                    <p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>CSS</h3>
+                    <p> CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>JavaScript</h3>
+                    <p> JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well. ... JavaScript can function as both a procedural and an object oriented language.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="#work" class="btn">My work</a>
+        </section>
+
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Developer out of Tampa Bay area</p>
+            <div class="about-me__body">
+                <p>I believe that if you are going to do something, you should give it your 100%. I've always been in a leader role in team projects and workplace responsibilities. I take pride in the work I do and want to be the best version of Chris Beyers everyday </p>
+                <p>In my spare time, I like to either powerlift or play video games. I enjoy learning new things everyday</p>
+            </div>
+            
+            <img src="chris-shake.jpg" alt=""class="about-me__img" >
+        </section>
+
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle"></p>
+            
+            <div class="portfolio">
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/Pacman.png" alt="" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="img/Miami1.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item3.html" class="portfolio__item">
+                    <img src="img/Miami2.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item4.html" class="portfolio__item">
+                    <img src="img/punkBeer.png" alt="" class="portfolio__img">
+                </a>
+
+                 
+                
+                
+            </div>
+        </section>
+
+        <footer class="footer">
+            <a href="Email: ChristBeyers@gmail.com" class="footer__link">ChrisTBeyers@gmail.com</a>
+            
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://dribbble.com">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>
+

@@ -424,14 +424,17 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    
     overflow: hidden;
+    justify-content: center;
+    margin: 20px auto
 }
 
 .portfolio__img {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+        
 }
 
 .portfolio__item:focus {
@@ -449,7 +452,7 @@ header {
 /* footer */
 
 .footer {
-    background: #111;
+    background: #999;
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
@@ -490,3 +493,4 @@ header {
 .social-list__link {
     padding: .5em;
 }
+
